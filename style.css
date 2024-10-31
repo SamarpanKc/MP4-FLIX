@@ -11,15 +11,14 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  background-color: #000;
-
+  background-color: #000100;
   color: #fff;
-  height: 4rem;
+  height: 5rem;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
 }
 nav a:first-child {
-  color: #fff;
+  color: #fffdfd;
   text-decoration: none;
   font-size: 20pt;
   font-weight: 700;
@@ -28,26 +27,46 @@ nav a:first-child {
 .two {
   width: 700px;
   padding: 0 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
 }
 .two .fa-solid {
-  width: 40px;
+  width: 36px;
   height: 10px;
   margin-top: 1%;
 }
 .two input {
   height: 40px;
   width: 300px;
-  border-radius: 10px;
-  padding: 10px;
-  font-size: 14pt;
-}
-.two a:last-child {
-  color: #fff;
-  text-decoration: none;
-  font-size: 14pt;
-  padding: 0 30px;
+  border-style: none;
+  border-radius: 36px;
+  padding: 12px;
+  font-size: 12pt;
+  outline-style: none;
 }
 
+.two .signIn{
+  width: 7.5vw;
+  height: 6vh;
+  background-color: #ffffff72;
+  display: flex;
+  align-items: center;
+  margin-left: 12px;
+  justify-content: center;
+  border-radius: 36px;
+}
+.two .signIn a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 12pt;
+  padding: 0 30px;
+  font-weight: 500;
+}
+.two .signIn:hover{
+  background-color: #ffffff9c;
+}
 /* Page 1 */
 
 .page1 {
